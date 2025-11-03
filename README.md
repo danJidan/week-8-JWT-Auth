@@ -22,6 +22,8 @@ src/
 
 ```powershell
 npm install
+npm install express mysql2 dotenv bcryptjs jsonwebtoken cors
+npm install --save-dev nodemon
 ```
 
 2) Buat file `.env` di root (sejajar dengan `package.json`)
@@ -109,3 +111,4 @@ Berikut adalah hasil uji API menggunakan Postman, memanfaatkan gambar yang Anda 
 ---
 
 Dibuat pada 3 November 2025.
+
